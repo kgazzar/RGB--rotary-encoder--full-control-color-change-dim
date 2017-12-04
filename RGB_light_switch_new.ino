@@ -72,9 +72,9 @@ void colorchange() {
   Serial.print("  ;  ");
   Serial.println(bv*factor);
 
-  analogWrite(8, rv*factor);
-  analogWrite(9, gv*factor);
-  analogWrite(10, bv*factor);
+  analogWrite(9, rv*factor);
+  analogWrite(10, gv*factor);
+  analogWrite(11, bv*factor);
   lastcounter = counter;
 }
 void colordim(){
@@ -93,9 +93,9 @@ void colordim(){
   Serial.print("  ;  ");
   Serial.println(bv*factor);
 
- analogWrite(8, rv*factor);
-  analogWrite(9, gv*factor);
-  analogWrite(10, bv*factor);
+ analogWrite(9, rv*factor);
+  analogWrite(10, gv*factor);
+  analogWrite(11, bv*factor);
   lastcounter = counter;
 }
 
